@@ -88,7 +88,7 @@ repeat
 		readln(buff);
 		if posNow >= m then begin
 			writeln('Buffer Overflow trovato, uso l''ultima posizione');
-			posNow := m;
+			posNow := m-1;
 		end;
 		push(v1, buff, posNow);
 	end;
