@@ -15,7 +15,7 @@ begin
 	end;
 end;
 
-function checkInt9(v:vettore;dim:integer):boolean;
+function checkDivs(v:vettore;dim:integer):boolean;
 var i:integer;
 begin
 	checkInt9 := TRUE;
@@ -27,7 +27,7 @@ end;
 
 begin
 	leggi(v1,MAX);
-	if ( checkInt9(v1,MAX)) then
+	if ( checkDivs(v1,MAX)) then
 		writeln('sono tutti divisori...')
 	else
 		writeln('no, sorry non sono divisori');
